@@ -1,0 +1,175 @@
+body {
+	background-color: #39596b;
+}
+
+h1 {
+	font-family: 'Cinzel Decorative', cursive;
+    letter-spacing:2px;
+    font-size: 60px;
+    color: #c9af44;
+}
+
+h3 {
+    font-family:'Elsie Swash Caps', cursive;
+    letter-spacing: 1px;
+    font-size:55px;
+	color: #c9af44;
+}
+
+h4 {
+	font-family: 'IBM Plex Mono', monospace;
+    color: white;
+}
+
+.text {
+	font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+.start-page {
+	background-image: url("https://i.pinimg.com/564x/ca/b0/51/cab051b9194d8a4bee721872b470e3b9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;     
+}
+
+.login-page {
+    background-color: #ab2e54;
+    border: 5px solid #404040;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;    
+    padding: 10px;    
+    margin: auto;
+    width: 50%;
+    top: 5%;
+}
+
+.input {
+	border: 3px solid #404040;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.25s;
+    outline: none;
+    height: 35px;
+    width: 50%;   
+}
+
+.input:hover {
+	border: 5px solid #39ad45;
+    cursor: pointer;
+    width: 60%;
+}
+
+.txt-button:hover {
+	cursor: pointer;
+    color: #c9af44;
+}
+
+.login {
+	background-color: #404040;
+    height: 25px;
+    width: 20%;
+}
+
+.front-website {
+	display: none;
+}
+
+.tel {
+	color: #233e66;
+    margin-top:10px;
+}
+
+.tab {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #80929c;
+    padding: 8px;
+    height: 30px;
+}
+
+.main-tab {
+	display:flex;
+    flex-direction: row;    
+    background-color: #5d6f78;
+    justify-content: space-around;   
+}
+
+.mini-logo {
+    position: relative;
+    border-radius: 50%;
+    margin-top: 7px;
+	width: 50px;
+    height:50px;
+}
+
+.mini-logo:hover {
+	cursor: pointer;
+}
+
+.tab-section:hover {
+	cursor: pointer;
+    color: #c9af44;
+}
+
+.img-float{
+	float: left;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+.statement {
+    float: right;    
+}
+
+.main-logo {
+    border-radius: 50%;
+    position: relative; 
+    height: 415px;
+}
+
+.section {
+    margin-left: 2%;
+    padding: 5px;
+	display: none;
+}
+
+.end-page {
+	background-image: url("https://i.pinimg.com/564x/ca/b0/51/cab051b9194d8a4bee721872b470e3b9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    display:none;
+}
+
+.logout-page {
+	background-color: #ab2e54;
+    border: 5px solid #404040;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;    
+    padding: 10px;    
+    margin: auto;
+    width: 50%;
+    top: 5%;
+}
+
+.pic {
+    margin-right: 2%;
+    float: right;
+    width: 480px;
+    height: 300px;
+    padding: 3px;
+}
