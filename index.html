@@ -4,6 +4,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&amp;family=Elsie+Swash+Caps&amp;family=IBM+Plex+Mono:wght@300&amp;display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa&amp;display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <style>
+        ul.a {list-style-type: circle;}
+ul.b {list-style-type: square;}
+            </style>
     <style>body {
 	background-color: #39596b;
 }
@@ -11,6 +15,7 @@
 h1 {
 	font-family: 'Cinzel Decorative', cursive;
     letter-spacing:2px;
+    text-shadow: 3px 3px black;
     font-size: 60px;
     color: #c9af44;
 }
@@ -133,7 +138,8 @@ h4 {
 }
 
 .statement {
-    float: right;    
+    float: right;
+    align-content: center;
 }
 
 .main-logo {
@@ -179,7 +185,28 @@ h4 {
     height: 300px;
     padding: 3px;
 }
-</style></head>
+
+.title-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product1 {
+	width: 270px;
+    height: 340px;
+}
+.product2 {	
+    width: 270px;
+    height: 340px;
+}
+
+.product-pic {
+	width: 290px;
+    height: 280px;
+    margin-right: 1%;
+    float: right;
+    padding: 3px;
+}</style></head>
     <body>
 
 
@@ -223,7 +250,9 @@ h4 {
                 <div class="statement">
                     <h3>Mission Statement:</h3>
                     <p class="text">Our goal is to allow note taking to be made easier for students<br> and to provide easier and cheaper access to writing tools.</p>
-                </div>
+                    <div class="title-img">
+                        <div><img src="https://i.pinimg.com/564x/66/e2/85/66e28561ef2db0f0c6792869c3b96687.jpg" class="product1"></div><div><img src="https://i.pinimg.com/564x/ba/1a/66/ba1a66d9e385d5b31dd4e3459bf95550.jpg" class="product2"></div></div>
+                    </div>
             </div>
         </div>
 
@@ -231,11 +260,12 @@ h4 {
             <div class="section 1">
                 <div>
                     <h3>Description of Product and Services</h3>
-                    <p class="text"> Our product is a multifunctional "write anywhere" pen.<br> It uploads to a preset destination on a cloud service.<br>Uses a pressure sensor to detect when being used. <br> Includes 3 modes that can be switched with the slider on the side of the pen.</p>
+                    <div><img src="https://i.pinimg.com/564x/bf/aa/59/bfaa5918237eef201267cf5a39795193.jpg" class="product-pic"></div>
+                    <p class="text"> Our product is a multifunctional <em>"write anywhere"</em> pen.<br> It uploads to a preset destination on a cloud service.<br>Uses a pressure sensor to detect when being used. <br> Includes 3 modes that can be switched with the slider on the side of the pen.</p>
                     <ol>
-                        <li class="text">First mode allows the user to write in one spot, and each time the user lifts the pen it shifts over where it prints to act as a spacing between letters / symbols.<br><br></li>
-                        <li class="text">Second mode uploads directly as it is written, with no built in spacing.<br><br></li>
-                        <li class="text">Third mode is a word processing mode, in which it automatically takes written letters and puts them into text-format. There are "undo" and "redo" buttons on the pen that would respond to the last action made.</li>
+                        <li class="text">Allows user to write in one spot, and each time the pen is lifted, it shifts over where it prints to act as a spacing between letters.<br><br></li>
+                        <li class="text">Uploads directly as it is written, with no built in spacing.<br><br></li>
+                        <li class="text">Word processing mode, it automatically takes written letters and puts them into text-format. There are "undo" and "redo" buttons on the pen that would respond to the last action made.</li>
                     </ol>
                 </div>
                 <div>
@@ -254,7 +284,7 @@ h4 {
                     <h3>Company Competitors</h3>
                    <div> <img src="https://miro.medium.com/max/2496/1*OiKm_9ryv813uq0QJmFTsQ.png" class="pic"></div>
                     <div>
-                    <ul>
+                    <ul class="a">
                         <li class="text">Google: Released Pixelbook Pro; works with Google Assitant.<br><br></li>
                         <li class="text">Apple: Released Apple Pen; works with iPad mini, iPad Air, and iPad.<br><br></li>
                         <li class="text">Microsoft: Released Microsoft Surface Pen; works with all Surface Computing Devices.</li>
@@ -263,13 +293,15 @@ h4 {
                     <p class="text">The Rell Pen works on any solid surface.<br> Rell Pen does not need an additional support device for it to function.<br>You can simply use a desk or even the floor! </p></div>
                 </div>
 
+                
+                
                 <div><img src="https://media.sproutsocial.com/uploads/2017/11/Social-Media-Ideas.png" class="pic"></div>
                 <div>
                     <h3>Advertisements</h3>
-                    <ul>
-                        <li class="text">Radio; Promote and Notify the public of upcoming sales</li>
-                        <li class="text">Television; Promote to local and national broadcast networks</li>
-                        <li class="text">Youtube; Seek to sponsor youtubers to review our product</li>
+                    <ul class="b">
+                        <li class="text">Radio; Promote and Notify the public of upcoming sales<br><br></li>
+                        <li class="text">Television; Promote to local and national broadcast networks<br><br></li>
+                        <li class="text">Youtube; Seek to sponsor youtubers to review our product<br><br></li>
                         <li class="text">Social Media; Promote and Notify of upcoming sales on our own company account</li>
                     </ul>
                 </div>
@@ -277,7 +309,7 @@ h4 {
                 <div>
                     <h3>Target Consumers</h3>
                     <div> <img src="https://i.pinimg.com/originals/be/fc/fa/befcfaaa9e3d0839b13b5a0b5adba521.png" class="pic"></div>
-                    <ul>
+                    <ul class="a">
                         <li class="text">Students</li>
                         <li class="text">Digital Designers</li>
                         <li class="text">Office Workers, Professors, and Teachers</li>
@@ -289,9 +321,9 @@ h4 {
                     <h3>Buisness Proposition</h3>
                     <p class="text">We provide:</p>
                     <ol>
-                        <li class="text">Luxurious and futuristic yet easy to use feel to note taking </li>
-                        <li class="text">Sturdy waterproof build for durability</li>
-                        <li class="text">Lightweight, portable and convenient to fit in your pocket</li>
+                        <li class="text">Luxurious and futuristic yet easy to use feel to note taking<br><br></li>
+                        <li class="text">Sturdy waterproof build for durability<br><br></li>
+                        <li class="text">Lightweight, portable and convenient to fit in your pocket<br><br></li>
                         <li class="text">Greater sensitivity and design to avoid virtual lag</li>
                     </ol>
                    
@@ -304,30 +336,31 @@ h4 {
                     <div><img src="https://www.fticonsulting.com/insights/fti-journal/~/media/297F6DD996C54E5186CF65527E6C206D.ashx" class="pic"></div>
                     <p class="text"><u>Workplace Safety</u>:</p>
                     <ul>
-                        <li class="text">Employees granted healthcare and life insurance</li>
+                        <li class="text">Granted healthcare and life insurance</li>
                     </ul>
                     <p class="text"><u>Attendance and Time-off Policies</u>:</p>
                     <ul>
-                        <li class="text">Employees have Sundays off and are granted 22 vacation days per year<br>+ 45 hours of paid sick leave per year</li>
+                        <li class="text">Sundays off and are granted 22 vacation days per year<br>+ 45 hours of paid sick leave</li>
                         <li class="text">Optional Overtime (up to 2 hours after shift) at a pay grade half of their usual.</li>
                     </ul>
                     <p class="text"><u>Employee disciplinary action policy</u>:</p>
                     <ul>
                         <li class="text">In a workplace incident, employees are to be let go or recieve a pay cut.</li>
-                        <li class="text">Employee Complaints are to be filed directly to HR if conflics arise.</li>
+                        <li class="text">Employee Complaints are to be filed directly to HR if conflics arises.</li>
                     </ul>
                     </div>
                 <div>
                    <h3>Departments</h3>
                     <div><img src="https://readdive.com/wp-content/uploads/2021/02/businessGrowth.jpg" class="pic"></div>
                     <ol>
-                        <li class="text"><u>Production</u>; Produce our product, making sure we don't overproduce or fall behind on orders.<br><br></li>
+                        <li class="text"><u>Production</u>; Produce our product, making sure there's no overproduction or falling behind on orders.<br><br></li>
                         <li class="text"><u>Research and Development</u>; Involved in research and testing, making sure our product is top notch and looking to make improvements.<br><br></li>
                         <li class="text"><u>Purchasing</u>; Supply resources / materials to our company.<br><br></li>
                         <li class="text"><u>Human Resources</u>; Help our buisness gain a competitive advantage, in charge of hiring, recruiting, and training job applicants.<br><br></li>
                         <li class="text"><u>Finance</u>; Keeps an updated earning report every 3 months and where payments are being made to analyze where we might need to invest more or less in.<br><br></li>
                         </ol>
 </div>
+                <hr>
                 <div><h3>Participant Resume</h3>
                     <div><img src="https://cdn.dribbble.com/users/236204/screenshots/2001675/zoom_tool_gif_for_dribbble.gif" class="pic"></div>
                     <p class="text"><u>General Requirements</u>:</p>
@@ -347,7 +380,7 @@ h4 {
                         <li class="text">Buisness / Finance:<br><br>
                         	Master of Buisness Administration<br>Master of Science in Finance programs<br><br></li></ul> <div><img src="https://thumbs.dreamstime.com/b/open-envelope-job-offer-message-flat-design-vector-illustration-140972187.jpg" class="pic"></div>
                         <p class="text">Must have at least Participated in 2 of the following:</p>
-                        <ul>
+                        <ul class="b">
                         <li class="text">Business Law</li>
                         <li class="text">Hospitality</li>
                         <li class="text">Human Resources</li>
