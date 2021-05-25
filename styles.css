@@ -12,6 +12,7 @@ h1 {
 
 h3 {
     font-family:'Elsie Swash Caps', cursive;
+    text-shadow: 3px 3px black;
     letter-spacing: 1px;
     font-size:55px;
 	color: #c9af44;
@@ -170,8 +171,18 @@ h4 {
 
 .pic {
     margin-right: 2%;
+    margin-bottom: 3%;
     float: right;
     width: 480px;
+    height: 300px;
+    padding: 3px;
+}
+
+.pic-fixed {
+	margin-right: 2%;
+    margin-bottom: 2%;
+    float: right;
+    width: 462px;
     height: 300px;
     padding: 3px;
 }
