@@ -5,6 +5,7 @@ body {
 h1 {
 	font-family: 'Cinzel Decorative', cursive;
     letter-spacing:2px;
+    text-shadow: 3px 3px black;
     font-size: 60px;
     color: #c9af44;
 }
@@ -127,7 +128,8 @@ h4 {
 }
 
 .statement {
-    float: right;    
+    float: right;
+    align-content: center;
 }
 
 .main-logo {
@@ -171,5 +173,27 @@ h4 {
     float: right;
     width: 480px;
     height: 300px;
+    padding: 3px;
+}
+
+.title-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product1 {
+	width: 270px;
+    height: 340px;
+}
+.product2 {	
+    width: 270px;
+    height: 340px;
+}
+
+.product-pic {
+	width: 290px;
+    height: 280px;
+    margin-right: 1%;
+    float: right;
     padding: 3px;
 }
