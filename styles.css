@@ -170,7 +170,7 @@ h4 {
 }
 
 .pic {
-    margin-right: 2%;
+    margin-right: 1%;
     margin-bottom: 3%;
     float: right;
     width: 480px;
@@ -178,12 +178,41 @@ h4 {
     padding: 3px;
 }
 
+.pic2 {
+	position: absolute;
+    margin-left: 62%;
+    top: 110%;
+    width: 462px;
+    height: 300px;
+    
+}
+
+.pic3 {
+    position: absolute;
+	margin-bottom: 30%;
+    margin-left: 61%;
+    top: 168%;	
+    width: 480px;
+    height: 300px;
+    padding: 3px;
+}
+
 .pic-fixed {
-	margin-right: 2%;
-    margin-bottom: 2%;
+    position: absolute;
+	margin-left: 62%;
+    top: 225%;
     float: right;
     width: 462px;
     height: 300px;
+    padding: 3px;
+}
+
+.pic-fixed2 {	
+    position: absolute;
+	margin-left: 62%;
+    top: 285%;
+    width: 465px;
+    height: 320px;
     padding: 3px;
 }
 
