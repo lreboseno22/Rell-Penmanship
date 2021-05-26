@@ -178,42 +178,51 @@ h4 {
     padding: 3px;
 }
 
-.pic2 {
-	position: absolute;
-    margin-left: 62%;
-    top: 110%;
-    width: 462px;
-    height: 300px;
+.flex {
+	display: flex;
+    flex-direction: row;
     
 }
 
-.pic3 {
-    position: absolute;
-	margin-bottom: 30%;
-    margin-left: 61%;
-    top: 168%;	
+.section-text {
+	
+}
+
+.img-box {
+    position: absolute;    
+    right: 23px;    
+}
+
+.pic1 {
     width: 480px;
     height: 300px;
-    padding: 3px;
 }
 
-.pic-fixed {
-    position: absolute;
-	margin-left: 62%;
-    top: 225%;
-    float: right;
+.pic2 {
+    width: 462px;
+    height: 300px;    
+}
+
+.pic3 {    	
+    width: 480px;
+    height: 300px;    
+}
+
+
+.pic4 {
     width: 462px;
     height: 300px;
-    padding: 3px;
 }
 
-.pic-fixed2 {	
-    position: absolute;
-	margin-left: 62%;
-    top: 285%;
+
+.pic5 {	    
     width: 465px;
     height: 320px;
-    padding: 3px;
+}
+
+.pic6 {
+	width: 460px;
+    height: 320px;
 }
 
 .title-img {
